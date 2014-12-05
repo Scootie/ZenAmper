@@ -1,8 +1,13 @@
+
+_Important Notice: This is a proof of concept script. I'm not responsible for the reprocussions of using this on your account. According to Hashtalk, auto amping is not allowed. Though from an enforcement perspective, it would be seriously hard to differentiate between this an a real user. Selenium uses a real browser, and is in essense recognized by the server as any another other real person using the selected browser. 
+
+This was never intended to be supported script, but I'll leave it in the repo who finds this python code helpful for their other projects. This script mostly provided me a decent opportunity to learn how to use Selenium and all its inner workings. 
+
+From an error handling perspective, I'd say it's much more finky than Scrapy. Selenium is a good choice when you're scraping a webpage that loads a lot of stuff through javascript. As all of it is rendered in a real browser, handling the DOM is a much more fluid experience. However, the DOM loading, and transition between user actions like key inputs and clicking requires time offsets like sleep between commands so that you don't cause the script to process faster than the elements are available._
+
 ZenAmper
 ========
 Amping your Hashlet Prime is critical if you want to maintain ROI. The problem is that this requires manually logging into GAW's ZenPortal, and sometimes you're just not available to do so. Real-life gets in the way. This script solves that problem, and automatically amps your Primes in the way you want. 
-
-_Important Notice: This is a proof of concept script. I'm not responsible for the reprocussions of using this on your account. According to Hashtalk, auto amping is not allowed. Though from an enforcement perspective, it would be seriously hard to differentiate between this an a real user. Selenium uses a real browser, and is in essense recognized by the server as any another other real person using the selected browser. This was never intended to be supported script, but I'll leave it in the repo who finds this python code helpful for their other projects._
 
 ## Notes about the script
 
