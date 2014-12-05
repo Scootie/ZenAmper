@@ -1,5 +1,5 @@
 
-_Important Notice: This is a proof of concept script. I'm not responsible for the reprocussions of using this on your account. According to Hashtalk, auto amping is not allowed. Though from an enforcement perspective, it would be seriously hard to differentiate between this an a real user. Selenium uses a real browser, and is in essense recognized by the server as any another other real person using the selected browser._
+_Important Notice: This is a proof of concept script. I'm not responsible for the reprocussions of using this on your account. According to Hashtalk, auto amping is not allowed. Though from an enforcement perspective, it would be seriously hard to differentiate between this an a real user. Selenium uses a real browser, and is in essense recognized by the server as any another other real person using the selected browser. Though, if you're double dipping in the same pool, in the way this script is currently setup for a Hashlet Prime mining HashPoint Pool, it probably will be a dead ringer._
 
 _This was never intended to be supported script, but I'll leave it in the repo who finds this python code helpful for their other projects. This script mostly provided me a decent opportunity to learn how to use Selenium and all its inner workings._ 
 
