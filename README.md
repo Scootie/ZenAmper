@@ -2,6 +2,8 @@ ZenAmper
 ========
 Amping your Hashlet Prime is critical if you want to maintain ROI. The problem is that this requires manually logging into GAW's ZenPortal, and sometimes you're just not available to do so. Real-life gets in the way. This script solves that problem, and automatically amps your Primes in the way you want. 
 
+_Important Notice: This is a proof of concept script. I'm not responsible for the reprocussions of using this on your account. According to Hashtalk, auto amping is not allowed. Though from an enforcement perspective, it would be seriously hard to differentiate between this an a real user. Selenium uses a real browser, and is in essense recognized by the server as any another other real person using the selected browser. This was never intended to be supported script, but I'll leave it in the repo who finds this python code helpful for their other projects._
+
 ## Notes about the script
 
 This is not most efficient code in terms of length or performance. This was written with structure as perhaps the highest priority. Instead of directly calling webpage elements, we crawl the DOM to find nested values and elements. 
@@ -36,7 +38,7 @@ Ideally you'll want to setup a cron job so this can be run frequently. Even thou
   
 ## Installation instructions
 
-See included installation file for how to setup Selenium to use this script.
+Not provided.
 
 ## License
 
