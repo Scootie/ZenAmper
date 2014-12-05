@@ -6,7 +6,7 @@ Amping your Hashlet Prime is critical if you want to maintain ROI. The problem i
 
 This is not most efficient code in terms of length or performance. This was written with structure as perhaps the highest priority. Instead of directly calling webpage elements, we crawl the DOM to find nested values and elements. 
 
-This allows us to correctly parse the web elements that represent each Hashlet Prime, sort which Hashlet Primes are available for amping, and then inspect deeper for controls. The benefit of this approach is that it's highly scaleable when there are multiple Hashlet Prime entries and the underlying code is more flexible when GAW makes chances to the web interface.
+This allows us to correctly traverse the DOM, find the web element that represent each Hashlet Prime, sort which Hashlet Primes are available for amping, and then inspect deeper for controls. The benefit of this approach is that it's highly scaleable when there are multiple Hashlet Prime entries and the underlying code is more flexible when GAW makes chances to the web interface.
 
 ## Settings
 
