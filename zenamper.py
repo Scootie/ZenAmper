@@ -94,7 +94,7 @@ def find_hashletprimes(driver,myampchoice):
 			AllPrime_status[primes]= "Not Available for action"
 			logging.info("Prime # %d is N/A, %s" % (primenumber, statusmsg))
 		elif myampchoice=='Boost':
-			AllPrime_status[primes]=Focus.find_element_by_class_name("fa-rocket")
+			AllPrime_status[primes]=Focus.find_element_by_class_name("im-rocket")
 			logging.info("Boosting Prime # %d" % primenumber)
 		elif myampchoice=='DD':
 			AllPrime_status[primes]=Focus.find_element_by_class_name("fa-plus-sign")
